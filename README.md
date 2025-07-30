@@ -72,35 +72,6 @@ Run tests with coverage:
 npm run test -- --coverage
 ```
 
-## 📁 Project Structure
-
-```
-src/
-├── components/          # React components
-│   ├── Cart.tsx        # Shopping cart component
-│   ├── Header.tsx      # Application header
-│   ├── ProductCard.tsx # Individual product card
-│   ├── ProductList.tsx # Product grid container
-│   ├── LoadingSpinner.tsx # Loading states
-│   └── ErrorMessage.tsx   # Error handling UI
-├── context/            # React Context providers
-│   └── CartContext.tsx # Cart state management
-├── hooks/              # Custom React hooks
-│   ├── useProducts.ts  # Product fetching logic
-│   └── useInfiniteScroll.ts # Infinite scroll logic
-├── types/              # TypeScript type definitions
-│   └── product.ts      # Product and cart types
-├── __tests__/          # Test files
-│   ├── Cart.test.tsx
-│   ├── ProductCard.test.tsx
-│   ├── useProducts.test.tsx
-│   └── useInfiniteScroll.test.tsx
-├── App.tsx             # Main application component
-├── main.tsx            # Application entry point
-├── index.css           # Global styles
-└── setupTests.ts       # Test configuration
-```
-
 ## 🐛 Troubleshooting
 
 ### Common Issues
